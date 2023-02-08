@@ -1,2 +1,4 @@
 .github/**
-Python-bikeshare-project/home/*.csv
+Python-bikeshare-project/home/chicago.csv
+Python-bikeshare-project/home/new_york_city.csv
+Python-bikeshare-project/home/washington.csv

@@ -196,6 +196,8 @@ def user_stats(df):
         print('Most recent year of birth:\n', int(most_recent))
         most_common = df['Birth Year'].value_counts().idxmax()
         print('Most common year of birth:\n', int(most_common))
+        median_year = df['Birth Year'].median()
+        print('Median year of birth:\n', int(median_year))
     except KeyError:
         print('No data available for this city')
         

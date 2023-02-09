@@ -95,7 +95,7 @@ def load_data(city, month, day):
     return df
 
 def display_raw_data(df):
-    """ Your docstring here """
+    """ Ask user the amount of raw data to display """
     i = 0
     raw = input("\nWould you like to see first 5 rows of data? Please enter 'yes or 'no'\n ") # TO DO: convert the user input to lower case using lower() function
     pd.set_option('display.max_columns',200)

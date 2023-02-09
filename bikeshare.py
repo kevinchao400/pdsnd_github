@@ -4,7 +4,7 @@ import numpy as np
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv', 
-              'washington': 'washington.csv', 'dc': 'washington.csv', 'new york': 'new_york_city.csv', 'nyc': 'new_york_city.csv'}
+              'washington': 'washington.csv', 'dc': 'washington.csv', 'washington dc': 'washington.csv', 'new york': 'new_york_city.csv', 'nyc': 'new_york_city.csv'}
 
 def get_filters():
     """
@@ -19,7 +19,7 @@ def get_filters():
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
                
     while True:
-        cities = ['chicago', 'new york city', 'nyc', 'new york', 'washington', 'dc'] 
+        cities = ['chicago', 'new york city', 'nyc', 'new york', 'washington', 'dc', 'washington dc'] 
         city = input("Which city would you like to explore: Chicago, New York City, or Washington DC?\n ").lower()
         if city not in cities:
             print('Selection Error, please choose one of the three cities. \n')
